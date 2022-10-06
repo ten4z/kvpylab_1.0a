@@ -1,4 +1,4 @@
-# kvpylab_1.0a | Maratona de Programaç
+# kvpylab_1.0a Maratona de Programação
 Olá, sou o Josiel, pode me chamar de Ziga, <br>
 Tenho graduação em Cientista da Computação e Especialidade em Ciência de Dados, <br>
 e aqui temos uma Maratona pessoal de prática de programação.<br>
