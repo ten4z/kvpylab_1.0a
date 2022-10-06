@@ -7,5 +7,5 @@ Vamos programar em Java Development Kit (JDK) resolvendo problemas da vida real 
 com Interface Gráfica de Usuário, que aqui chamo de gui.<br>
 Visite minha homepage para me conhecer melhor, e firmarmos parcerias de projetos e aplicações.<br>
 <a href="www.josielsoares.com">josielsoares.com</a><br>
-Esta maratona pode ser consultada também em minha página na internet, que est
+Outra maratona pode ser consultada também em minha página na internet:
 <a href="http://josielsoares.com/artigos/kivy/jornada-de-algoritmos-kivy-framework.php">Link da 1ª Maratona</a>
