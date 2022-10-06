@@ -1,5 +1,5 @@
 # kvpylab_1.0a
-Olá, qui estou sou o Josiel, <br>
+Olá, sou o Josiel, pode me chamar de Ziga, <br>
 Tenho graduação em Cientista da Computação e Especialidade em Ciência de Dados, <br>
 e aqui temos uma Maratona pessoal de prática de programação.<br>
 Laboratório de Algorítmos e programação | Framework Kivy e Python | Maratona de 2022<br>
