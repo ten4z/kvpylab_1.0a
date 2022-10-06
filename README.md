@@ -1,6 +1,6 @@
 # maratonaLab_1.0a Maratona de Programação
 Olá, sou o Josiel, pode me chamar de Ziga, <br>
-Tenho graduação em Cientista da Computação e Especialidade em Ciência de Dados, <br>
+Tenho graduação em Ciência da Computação e Especialidade em Ciência de Dados, <br>
 e aqui temos uma Maratona pessoal de prática de programação.<br>
 Laboratório de Algorítmos e Linguagem de Programação Java | Maratona de 2022<br>
 Vamos programar em Java Development Kit (JDK) resolvendo problemas da vida real <br>
