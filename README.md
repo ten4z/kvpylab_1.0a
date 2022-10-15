@@ -44,4 +44,4 @@ OU ATÉ MESMO QUE VOCÊ RESOLVA ESTES ALGORITMOS EM OUTRO FRAMEWORK OU AMBIENTE 
 TENTE TAMBÉM ADICIONAR OUTROS WIDGETS DO KIVY NA APLICAÇÂO 
 E MODIFIQUE NOME DE CLASSE E ESTRUTURA DOS MÉTODOS INCREMENTANDO FUNCIONALIDADE NOS PROJETOS
 <br><br>
-Para assim você ter uma biblioteca viva de projetos que você pode reutilizar em suas aplicações
+Para assim você ter uma biblioteca reproduz de projetos que você pode reutilizar em suas aplicações
