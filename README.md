@@ -13,7 +13,7 @@ Outra maratona pode ser consultada também em minha página na internet:
 ATENÇÃO EU NÃO ACONSELHO A VOCÊ SOMENTE COPIAR ESTE CÓDIGO E EXECUTAR EM SEU TERMINAL
 ESTE MATERIAL É PARA APRENDIZADO ACERCA DO FRAMEWORK KIVY, NÃO USE SIMPLESMENTE COMO COLA
 MAS TENTE RESOLVER POR CONTA PRÓPRIA CADA ALGORÍTMO PEDIDO PARA ASSIM VOCÊ PRATICAR E APRENDER DE VERDADE
-<br>
+<br><br>
 <strong>
 Algoritmos e Linguagens de Programação: Exercícios para praticar e aprender sua Linguagem de Programação favorita
 </strong>
