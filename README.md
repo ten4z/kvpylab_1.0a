@@ -13,9 +13,11 @@ Outra maratona pode ser consultada também em minha página na internet:
 ATENÇÃO EU NÃO ACONSELHO A VOCÊ SOMENTE COPIAR ESTE CÓDIGO E EXECUTAR EM SEU TERMINAL
 ESTE MATERIAL É PARA APRENDIZADO ACERCA DO FRAMEWORK KIVY, NÃO USE SIMPLESMENTE COMO COLA
 MAS TENTE RESOLVER POR CONTA PRÓPRIA CADA ALGORÍTMO PEDIDO PARA ASSIM VOCÊ PRATICAR E APRENDER DE VERDADE
+<br>
 <strong>
 Algoritmos e Linguagens de Programação: Exercícios para praticar e aprender sua Linguagem de Programação favorita
 </strong>
+<br>
 1. Escreva um programa que receba dois números inteiros e some apresentando na tela o resultado; 
 2. Desenvolva um programa que receba dois números e em seguida mostre o resultado das 4 operações matemáticas sobre os números;
 3. Faça um programa que receba o nome do usuário e em seguida mostre o que foi digitado;
