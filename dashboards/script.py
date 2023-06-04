@@ -14,6 +14,16 @@ class Game():
 			pass
 		else:
 			own['tmp2']	 = 0
+	def graficos_s(self):
+		ep = obj['Empty_Plotador']
+		lista = [[0,0], [1,1], [2,3], [3, 1], [4,2], [5,5]]
+		for k in lista:
+			
+			ep.localPosition = [3.97853 + k[0]*1.5, 2.05544, 7.01727 +  1.5*k[1]]
+			v0 = scn.addObject('v_inicio', ep)
+			#v1 = scn.addObject('v_inicio', )
+			v = scn.addObject('vetor', ep)
+
 	def iniciar(self):
 		print('Game iniciando...')
 
@@ -44,3 +54,4 @@ def run():
 	g = Game()
 	g.iniciar()
 	g.atualizar_dashboard()
+	g.graficos_s()
