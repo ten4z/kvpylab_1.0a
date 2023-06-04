@@ -8,10 +8,10 @@ class Game():
 	lista = []
 	pontos = 0
 	def atualizar_dashboard(self):
-		if own['tmp2'] > 5 and own['tmp2'] <= 5.05:
+		if own['tmp2'] > 2 and own['tmp2'] <= 2.05:
 			obj['dash_c']['indicador'] = randint(0, 100)
 			self.graficos_s()
-		if own['tmp2'] <= 5:
+		if own['tmp2'] <= 2:
 			pass
 		else:
 			own['tmp2']	 = 0
@@ -20,12 +20,7 @@ class Game():
 		eo = obj['Empty_Origem']
 		#if cont.sensors['tap'].positive:
 		lista = [[0,0]]
-		ep.localPosition = [4.05 +lista[0][0]*1.5, 2.05544, 7.01727 +  1.5*lista[0][1]]
-		v0 = scn.addObject('v_inicio', ep)
-		own['pontos'] += 1
-		v0['id'] = 5 - own['pontos']
-		v0.setParent(eo)
-		eo.localPosition.x -= 4.05
+		
 		
 		
 		
@@ -35,25 +30,34 @@ class Game():
 		py = randint(0,5)
 		lista.append([px, py])
 		ep.localPosition = [4.05 +lista[0][0]*1.5, 2.05544, 7.01727 +  1.5*lista[0][1]]
-		v1 = scn.addObject('v_fim', ep)
+		v0 = scn.addObject('v_inicio', ep)
+		own['pontos'] += 1
+		v0['id'] = 5 - own['pontos']
+		v0.setParent(eo)
+		eo.localPosition.x -= 1.05
+		if v0['id'] <= 0:
+			own['pontos'] = 5
+			v0.endObject()
+
+		print(v0['id'])
 		#v0.endObject()
 		#v1['id'] -= 1
 		print(lista)
 		'''
 		own.localPosition.x  = 0
-        own.localPosition.z  = a*0+b
-        orig = sc.addObject('orig_reta', own)        
-        own.localPosition.x  = 30
-        own.localPosition.z  = a*30+b
-        ext = sc.addObject('ext_reta', own)        
-        own.localPosition.x  = (orig.localPosition.x + ext.localPosition.x)/2
-        own.localPosition.z  = (orig.localPosition.z + ext.localPosition.z)/2
-        r = sc.addObject('reta', own)        
-        direction = ext.localPosition - orig.localPosition                   
-        AXIS_X = 0                           
-        r.localScale = [direction.length,0.1, 0.1]                                        
-        r.alignAxisToVect(direction, AXIS_X)
-        '''
+		own.localPosition.z  = a*0+b
+		orig = sc.addObject('orig_reta', own)        
+		own.localPosition.x  = 30
+		own.localPosition.z  = a*30+b
+		ext = sc.addObject('ext_reta', own)        
+		own.localPosition.x  = (orig.localPosition.x + ext.localPosition.x)/2
+		own.localPosition.z  = (orig.localPosition.z + ext.localPosition.z)/2
+		r = sc.addObject('reta', own)        
+		direction = ext.localPosition - orig.localPosition                   
+		AXIS_X = 0                           
+		r.localScale = [direction.length,0.1, 0.1]                                        
+		r.alignAxisToVect(direction, AXIS_X)
+		'''
 		#v1 = scn.addObject('v_inicio', )
 	def iniciar(self):
 		#print('Game iniciando...')	
